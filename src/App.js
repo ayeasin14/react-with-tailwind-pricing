@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Pricing from './components/Pricing/Pricing';
+import AssignmentMarks from './components/AssignmentMarks/AssignmentMarks';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         Hello world!
       </h1>
       <Pricing></Pricing>
+      <AssignmentMarks></AssignmentMarks>
     </div>
   );
 }
